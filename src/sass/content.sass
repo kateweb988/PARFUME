@@ -427,6 +427,8 @@ input:-moz-placeholder
       padding: 22px 0 20px
       justify-content: space-between
       align-items: center
+      position: relative
+      left: -26px
    &__tel 
       margin-bottom: 6px
       p 
@@ -942,7 +944,7 @@ input:-moz-placeholder
       color: #6d6d6d
       font-size: 14px
       text-align: center
-      max-width: 370px
+      max-width: 550px
       margin: 0 auto
       line-height: 23px
    &__box 
@@ -3129,6 +3131,8 @@ ul.info li
          margin-top: 20px
    &__btn 
       color: #282828
+      width: 205px
+      height: 50px
    .style2
       margin-left: 47px
    .card-wrap__item .rev__data
@@ -3168,6 +3172,15 @@ ul.info li
       justify-content: center
 .popup5 
    top: 100%
+   .brands__list li p
+      display: none
+   .form-check-label 
+      transition: 0.5s
+      &:hover 
+         color: $yel
+   .calc__item.bold 
+      .form-check-label 
+         font-weight: bold
 .popup__bg6 
    .popup-row1
       margin-right: 0

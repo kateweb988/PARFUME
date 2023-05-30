@@ -5,6 +5,8 @@
    .menu3, .menu3.active
       right: -9px
       top: 45px
+   .nav__top
+      left: 0
 @media screen and (max-width: 1300px)
    .pop__item
       margin-right: 24px
@@ -29,6 +31,18 @@
       .slider 
          max-width: 434px
 @media screen and (max-width: 1199px)
+   .footer__center
+      margin: 25px 0
+   .footer__bottom
+      flex-direction: column 
+      align-items: center
+      padding-bottom: 80px
+   .footer__com 
+      position: absolute
+      bottom: 19px
+      left: 50%
+      margin-left: -58px
+      text-align: center
    .nav 
       position: relative
    .menu-btn 
@@ -157,44 +171,6 @@
       padding-bottom: 25px
    .now__item
       margin-right: 40px
-   .footer__box
-      flex-direction: column
-      align-items: center
-      padding-bottom: 0
-   .footer__left
-      margin-right: 0
-   .footer__logo
-      margin-bottom: 30px
-   .footer__content
-      flex-direction: column 
-      align-items: center
-      text-align: center
-   .footer__item
-      margin-bottom: 30px
-      width: 100%
-   .footer__name
-      margin-bottom: 15px !important
-   .footer
-      position: relative
-   .footer__bottom
-      flex-direction: column 
-      align-items: center
-      padding-bottom: 80px
-   .footer__center
-      margin: 25px 0
-   .footer__com 
-      position: absolute
-      bottom: 19px
-      left: 50%
-      margin-left: -58px
-      text-align: center
-   .footer__item:last-child .footer__name
-      width: 100%
-      margin-bottom: 30px !important
-   .footer__flex, .footer__link
-      justify-content: center
-   .footer__link
-      margin-bottom: 15px
    .popup__bg4 .popup-row1, .popup__bg5 .popup-row1
       margin-right: 0
    .popup__bg4 .popup__wrap,  .popup__bg5 .popup__wrap
@@ -343,6 +319,14 @@
       top: 50%
    .popup__bg5 .popup5
       top: 120vh
+   .footer__content
+      flex-wrap: wrap
+   .footer__item:last-child
+      margin-top: 25px
+   .footer__center p 
+      font-size: 12px
+      margin-right: 4px
+      line-height: 15px
 @media ( max-width: 991px )
    input, textarea, select
       -webkit-appearance: none
@@ -491,6 +475,10 @@
    .popup__bg6 
       .slick-arrow
          display: none !important
+   .footer__item
+      width: 47%
+      margin-bottom: 25px 
+      margin-top: 0 !important
 @media screen and (max-width: 767px)
    .rev__arrow 
       display: none !important
@@ -658,6 +646,32 @@
       height: 400px
    .popup__bg5 .popup5
       top: 120vh
+   .footer__box
+      flex-direction: column
+      align-items: center
+      padding-bottom: 0
+   .footer__left
+      margin-right: 0
+   .footer__logo
+      margin-bottom: 30px
+   .footer__content
+      flex-direction: column 
+      align-items: center
+      text-align: center
+   .footer__item
+      margin-bottom: 30px
+      width: 100%
+   .footer__name
+      margin-bottom: 15px !important
+   .footer
+      position: relative
+   .footer__item:last-child .footer__name
+      width: 100%
+      margin-bottom: 30px !important
+   .footer__flex, .footer__link
+      justify-content: center
+   .footer__link
+      margin-bottom: 15px
 @media screen and (max-width: 576px)
    button:active, button:focus 
       outline: none
@@ -1143,13 +1157,27 @@
       flex-direction: column
       text-align: center
       align-items: center
+      z-index: 10
       justify-content: center 
-      margin: 0 auto 10px
+      margin: 0 0 10px
+   .style2
+      z-index: 9
    .cat .style1 p
       margin-right: 0
       margin-bottom: 5px
+      font-size: 12px
+   .cat .style2 .selectCF
+      width: 140px
+   .cat .style2 .selectCF li ul 
+      left: -40.55px
+   .selectCF .searchCF input
+      position: absolute
+      top: 0
+      left: -500px
    .cat__top
+      flex-direction: column
       margin-bottom: 10px
+      align-items: center
    .card .slider
       max-width: 290px
    .card .slider .slick-slide img
@@ -1261,3 +1289,5 @@
       font-size: 17px
       line-height: 27px
       margin-bottom: 19px
+   .menu2__form input, .menu22__form input
+      font-size: 15px
